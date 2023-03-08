@@ -1,13 +1,15 @@
 /**
- *  * _strlen_recursion - gets strlen of s via recursive algorithm
+ *  * factorial - returns factorial of n using recursion
  *   *
- *    * @s: string to check length of
+ *    * @n: int paramater to return factorial of
  *     *
- *      * Return: int containing length of string
+ *      * Return: factorial of n
  */
-int _strlen_recursion(char *s)
+int factorial(int n)
 {
-	if (!*s)
-		return (0);
-	return (1 + _strlen_recursion(s + 1));
+	if (n < 0) /* error */
+		return (-1);
+	if (n <= 1) /* base case */
+		return (1);
+	return (n * factorial(n - 1));
 }
