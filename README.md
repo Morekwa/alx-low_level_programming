@@ -1,2 +1,1 @@
-#  ALX LOW LEVEL PROGRAMMING
-This repository is about low level programming
+0x0A-argc_argv folder
