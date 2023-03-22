@@ -1,1 +1,1 @@
-More Malloc,free
+This lesson is on function pointers
